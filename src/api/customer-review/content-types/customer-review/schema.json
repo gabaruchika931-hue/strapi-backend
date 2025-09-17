@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_reviews",
+  "info": {
+    "singularName": "customer-review",
+    "pluralName": "customer-reviews",
+    "displayName": "customer-review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "screenshot": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "review_text": {
+      "type": "richtext"
+    },
+    "rating": {
+      "type": "biginteger"
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "review_date": {
+      "type": "date"
+    }
+  }
+}
